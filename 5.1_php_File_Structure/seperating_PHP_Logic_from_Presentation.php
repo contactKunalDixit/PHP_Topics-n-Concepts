@@ -5,7 +5,7 @@
 
 Try and organize your files on the structure of MVC i.e. Model View Controller where:
 
-Folder "model" : comprises of all files that include all the data that will be passed on to functions to get displayed.
+Folder "model" : comprises of all files that include the actual data that will be passed on to functions to get displayed.
 
 Folder "view" : Includes files related to display i.e. all the HTML structure and echo, and print_r() statements.
 
@@ -16,5 +16,3 @@ Folder "contoller": Includes all the files containing logical expressions and fu
 
 
 */
-
-?>

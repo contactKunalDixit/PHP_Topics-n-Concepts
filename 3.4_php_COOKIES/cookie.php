@@ -3,7 +3,8 @@
 // What is a Cookie ? How is it different from Session:
     
 //??    A Cookie is often used to identify the user.
-//??    A Cookie is a small info file which the server embeds to the user's computer. Each time the same computer requests a page with a browser, it will send the cookie file alongwith that request too. With PHP, you can oth create and retrievecookie values.
+//??    A Cookie is a small info file which the server embeds to the user's computer. Each time the same computer requests a page with a browser, it will send the cookie file alongwith that request too for user identifcation. That's how companies also store consumer's preferences for a product /service.
+//??  With PHP, you can oth create and retrieve cookie values.
 // ??   The value of the cookie is automatically URLencoded when sending the cookie and decoded when recieved
 
 //?? Session variables are stored on the server but Cookie info is stored in the user's computer.
@@ -80,5 +81,3 @@ setcookie("testcookie" , "Test" , time() + 3600 , "/");
 
 
 */
-
-?>
